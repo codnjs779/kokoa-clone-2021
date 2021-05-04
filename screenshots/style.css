@@ -1,0 +1,70 @@
+:root{
+    --headerFontSize: 13px;
+    --iconpadding:3px;
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+    font-size:var(--headerFontSize);
+}
+
+.topBar_column{
+    padding:var(--iconpadding);
+}
+
+.time{
+    font-weight:bolder;
+}
+
+.fa-battery-quarter{
+    color:red;
+}
+
+.welcomeMessage {
+    text-align:center;
+}
+
+.welcome{
+    font-weight:bolder;
+    font-size: 20px;
+    padding-top: 30px;;
+}
+
+.information{
+    color:gray;
+    font-size:13px;
+    line-height:16px;
+}
+
+.inputData{
+    margin-top:30px;
+}
+
+.idInput, .pwInput{
+    border: none;
+    outline: none;
+    
+    
+}
+
+.submitBtn{
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+}
+.submitBtn_login,
+.submitBtn_signup{
+    padding:8px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: whitesmoke;
+    
+}
+
+.find{
+    text-align:center;
+    font-size: 12px;
+}
+
